@@ -6,7 +6,7 @@ Boilerplate for webpack projects with hot-reload dev server.
 ## Installation
 Clone this repo
 ```
-git clone git@github.com:alexgalax/hot-webpack-boilerplate.git
+git clone git@github.com:AlexGalax/hot-webpack-boilerplate.git
 ```
 Install dependencies
 ```
