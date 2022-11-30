@@ -1,6 +1,4 @@
-const webpack = require('webpack');
 const { merge } = require('webpack-merge')
-
 const common = require('./common')
 
 module.exports = merge(common, {
@@ -40,7 +38,8 @@ module.exports = merge(common, {
         ],
     },
 
-    plugins: [
-        new webpack.HotModuleReplacementPlugin()
-    ]
+    watchOptions: {
+        poll: true,
+        ignored: /node_modules/,
+    }
 })
