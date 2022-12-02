@@ -1,4 +1,4 @@
-import someLog from './js/some-module';
+import someLog from './modules/some-module';
 import './scss/style.scss';
 
 function component() {
